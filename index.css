@@ -1,0 +1,137 @@
+
+
+   body {
+    
+   
+    background-color: #f6f2fc;
+    background-color: var(--light-pink);
+          background-image:url(images/background-pattern-desktop.svg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          font-family: 'work sans' 'sans-serif';
+          min-height: 100vh;
+          display: grid;
+          place-content: center;
+        }
+  }
+  
+  .background-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .faq-container {
+    position: relative;
+    max-width: 400px;
+    background-color: #fff;
+    margin: 160px auto 0;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5e2484;
+    margin-bottom: 16px;
+  }
+  
+  .faq-item {
+    margin-bottom: 16px;
+  }
+  
+  .faq-question {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question .icon {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9932cc;
+  }
+  
+  .faq-answer {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+  
+  .faq-question.active + .faq-answer {
+    display: block;
+  }
+  
+  .faq-answer {
+    display: none;
+  }
+  
+    /* *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+    }
+    :root{
+      --white: hsl(0,0%,100%);
+      --light-pink:hsl(275,100%,97%);
+      ---grayish-purple:hsl(257,7%,63%);
+      --dark-purple:hsl(292,42%148%);
+        }
+
+        body{
+          background-color: var(--light-pink);
+          background-image:url(images/background-pattern-desktop.svg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          font-family: 'work sans' 'sans-serif';
+          min-height: 100vh;
+          display: grid;
+          place-content: center;
+        }
+        img,svg{
+          max-width: 100px;
+          display: block;
+        }
+        button{
+          cursor: pointer;
+          background-color: transparent;
+          width: 100%;
+          padding: 1rem 0;
+          font-size: 1.1rem;
+          text-align: 600;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 1rem;
+          border: 0;
+        }
+        button:hover{
+          color: purple;
+
+        }
+        .container{
+          background-color: var(--white);
+          max-width: 880px;
+          padding: 1.5rem;
+          margin: 1rem;
+          border-radius: 1rem;
+        }
+      .faq-headline h1{
+display: flex;
+gap: 2rem;
+      }   */
